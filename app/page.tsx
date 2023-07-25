@@ -49,16 +49,16 @@ export default function Home() {
         </div>
         <div className='xl:flex xl:justify-evenly px-4 xl:px-8 '>
           <div>
-            <Card image="/../public/images/research.png" title="Research" description="We enable transnational, interdisciplinary research through annual conferences and events."/>
+            <Card title="Research" description="We enable transnational, interdisciplinary research through annual conferences and events."/>
           </div>
           <div>
-            <Card image="/../public/images/coordinate.png" title="Coordinate" description="We coordinate policy advice across national and regional boundaries."/>
+            <Card title="Coordinate" description="We coordinate policy advice across national and regional boundaries."/>
           </div>
           <div>
-            <Card image="/../public/images/connect.png" title="Connect" description="We connect leading AI scholars from various fields and continents."/>
+            <Card title="Connect" description="We connect leading AI scholars from various fields and continents."/>
           </div>
           <div>
-            <Card image="/../public/images/promote.png" title="Promote" description="We promote a global network of scholars and thought leaders dedicated to furthering the potential of responsible AI while mitigating its risks"/>
+            <Card title="Promote" description="We promote a global network of scholars and thought leaders dedicated to furthering the potential of responsible AI while mitigating its risks"/>
           </div>
         </div>
       </div>
