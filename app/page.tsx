@@ -14,7 +14,7 @@ export default function Home() {
       <div>
         <Navbar/>
       </div>
-      /* Introduction */
+      {/* Introduction  */}
       <div className='justify-between px-4 mx-auto lg:max-w-8xl md:flex md:items-center md:px-8 mb-20'>
         <div className='text-black md:pr-20'>
           <div className='text-center'>
@@ -41,7 +41,7 @@ export default function Home() {
           <Image className="object-cover" src={dalle} alt=''/>
         </div>
       </div>
-      /* Our Impact */
+      {/* Our Impact */}
       <div className='text-black'>
         <div className='w-full'>
           <h2 className='flex justify-center font-bold text-4xl'>Our Impact</h2>
@@ -62,7 +62,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      /* Our Focus */
+      {/* Our Focus */}
       <div className='text-black w-full px-4 mx-auto lg:max-w-8xl md:px-8 md:mb-20 mb-10 md:flex md:items-center'>
         <div className='md:w-8/12'>
           <h2 className='font-bold text-4xl'>Our Focus</h2>

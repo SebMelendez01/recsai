@@ -1,0 +1,19 @@
+{
+    "names" : ["SarahHammer", "PhilippHacker"],
+    "SarahHammer" : {
+        "name" : "Sarah Hammer",
+        "title" : "Co-Chair",
+        "twitter" : "https://twitter.com/FinanceHammer",
+        "linkedin" : "https://www.linkedin.com/in/sarahhammer1/",
+        "description" : "Professor Sarah Hammer is Executive Director at the Wharton School of the University of Pennsylvania and leads Wharton Cypher Accelerator, which supports leading global businesses that are leveraging financial technology. Hammer is also Adjunct Professor at the University of Pennsylvania Law School. Hammer is also Affiliated Scholar at the Penn Program on Regulation.",
+        "website" : "https://www.law.upenn.edu/faculty/sarah21"
+    },
+    "PhilippHacker" : {
+        "name" : "Philipp Hacker",
+        "title" : "Co-Chair",
+        "twitter" : "https://twitter.com/philipphacker15",
+        "linkedin" : "https://www.linkedin.com/in/philipp-hacker-078940257/",
+        "description" : "Prof. Dr. Philipp Hacker, LL.M. (Yale), holds the Chair for Law and Ethics of the Digital Society at the European New School of Digital Studies (ENS), at European University Viadrina Frankfurt (Oder). In 2021, he was a Research Fellow at Weizenbaum Institute for the Connected Society Berlin. Prior to joining ENS, he served as an AXA Postdoctoral Fellow at the Faculty of Law of Humboldt University of Berlin; a Max Weber Fellow at the European University Institute, and an A.SK Fellow at WZB Berlin Social Science Center. His research focuses on the intersection of law and technology. In particular, he analyzes the impact of Artificial Intelligence and the Internet of Things on consumer, privacy, anti-discrimination,and general regulatory law. He often cooperates with computer scientists and mathematicians, especially on questions of explainable AI and algorithmic fairness. He regularly advises national and EU legislators, regulatory agencies, and industry.",
+        "website" : "https://europeannewschool.eu/philipp-hacker.html"
+    }
+}

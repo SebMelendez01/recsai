@@ -69,7 +69,7 @@ export default function Navbar(){
                                 <Link href="/">Blog</Link>
                             </li>
                             <li className='flex justify-center'>
-                                <SocialMedia/>
+                                <SocialMedia twitter="https://twitter.com/aiglobalexperts/" linkedin="https://www.linkedin.com/company/recsai" instagram="https://www.instagram.com/aiglobalexperts/"/>
                             </li>
                         </ul>
                     </div>
