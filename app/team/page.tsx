@@ -20,9 +20,9 @@ export default function Team() {
         <div>
             <Navbar/>
             <div className="px-4 mx-auto lg:max-w-8xl md:px-8 min-h-[63vh]">
-                <div className="flex sm:justify-evenly">
+                <div className="flex justify-evenly flex-wrap">
                     {profiles.names.map((profile :string) => (
-                        <div className="w-64">
+                        <div key={profile} className="w-64 mb-4">
                             <User name={profiles[profile].name} title={profiles[profile].title} external={profiles[profile].website} linkedin={profiles[profile].linkedin} twitter={profiles[profile].twitter} />
                         </div>
                     ))}

@@ -1,10 +1,5 @@
 import Image from "next/image"
 
-import reseach from '../public/images/research.png'
-import promote from '../public/images/promote.png'
-import connect from '../public/images/connect.png'
-import coordinate from '../public/images/coordinate.png'
-
 interface CardProps {
     title:string, 
     description:string

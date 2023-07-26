@@ -2,7 +2,7 @@ import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 
 
-export default function Team() {
+export default function Disclaimer() {
 
     return (
         <div>
