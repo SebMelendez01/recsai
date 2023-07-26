@@ -25,7 +25,7 @@ export default function Footer() {
                         <Link href="/team" className="mr-4 hover:underline md:mr-6">Team</Link>
                     </li>
                     <li>
-                        <a href="#" className="mr-4 hover:underline md:mr-6">Blog</a>
+                        <a href="https://medium.com/@internationalrecsai" target="_blank" className="mr-4 hover:underline md:mr-6">Blog</a>
                     </li>
                     <li>
                         <Link href="/disclaimer" className="mr-4 hover:underline md:mr-6">Disclaimer</Link>

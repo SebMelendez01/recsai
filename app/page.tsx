@@ -58,7 +58,7 @@ export default function Home() {
             <Card title="Connect" description="We connect leading AI scholars from various fields and continents."/>
           </div>
           <div>
-            <Card title="Promote" description="We promote a global network of scholars and thought leaders dedicated to furthering the potential of responsible AI while mitigating its risks"/>
+            <Card title="Promote" description="We promote a global network of scholars and thought leaders dedicated to furthering the potential of responsible AI while mitigating its risks."/>
           </div>
         </div>
       </div>
