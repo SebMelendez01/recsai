@@ -7,7 +7,7 @@ export default function About() {
             <Navbar/>
             <div className="text-black">
                 <div className='w-full mb-10'>
-                    <h2 className='flex justify-left font-bold text-4xl'>About Us</h2>
+                    <h2 className='flex justify-center font-bold text-4xl'>About Us</h2>
                     <hr className="w-48 h-px mx-auto bg-black border-0 rounded my-2"/>
                 </div>
                 <div className="px-4 mx-auto lg:max-w-8xl text-center md:flex md:px-32">

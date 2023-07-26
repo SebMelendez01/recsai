@@ -15,12 +15,8 @@ const Card = ({title, description }: CardProps) => {
         <div className="grid justify-items-center text-center p-10">
             <Image 
                 className="" width={75} height={75} 
-                src={
-                    "Research" === title ? reseach : 
-                    "Promote" === title ? promote : 
-                    "Connect" === title ? connect :
-                    coordinate
-                } alt=''
+                src={`/images/${title.toLowerCase()}.png`}
+                     alt=''
             />
             <div className="py-4">
                 <div className="font-bold text-xl mb-2">{title}</div>

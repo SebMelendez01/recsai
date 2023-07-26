@@ -36,7 +36,7 @@ export default function ProfilePage() {
                     
                 </div>
                 <div className='flex justify-center mt-10'>
-                    <Image className="md:p-20" width={500} height={500} src={`/../public/profiles/${slug}.png`} alt=''/>
+                    <Image className="md:p-20" width={500} height={500} src={`/profiles/${slug}.png`} alt=''/>
                 </div>
             </div>
             <Footer/>
