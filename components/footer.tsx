@@ -3,13 +3,13 @@ import SocialMedia from "./social-media";
 
 export default function Footer() {
     return (
-        <footer className="bg-white m-4 text-black ">
-            <div className="w-full p-4 md:flex md:items-center md:justify-between">
-                <span className="text-sm xl:text-left text-center">
-                    <div className="font-light md:text-[19px] md:w-[360px] text-[4vw]">
+        <footer className="bg-white m-4 text-black mt-auto">
+            <div className="w-full p-4 lg:flex lg:items-center lg:justify-between">
+                <span className="lg:text-left text-center">
+                    <div className="font-light lg:text-[16px] lg:w-[305px] text-[3.82vw]"> 
                         The International Expert Consortium on the
                     </div>
-                    <div className="font-bold md:text-[15.5px] md:w-[360px] text-[3.25vw]">
+                    <div className="font-bold lg:text-[13px] lg:w-[305px] text-[3.1vw]">
                         Regulation, Economics and Computer Science of AI
                     </div>
                 </span>

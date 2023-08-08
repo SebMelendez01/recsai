@@ -60,13 +60,16 @@ export default function Navbar(){
                                 <Link href="/">Home</Link>
                             </li>
                             <li className='flex justify-center'>
-                                <Link href="/about">About Us</Link>
+                                <Link href="/about">About</Link>
                             </li>
                             <li className='flex justify-center'>
-                                <Link href="/team">Team</Link>
+                                <Link href="/team">Experts</Link>
                             </li>
                             <li className='flex justify-center'>
                                 <a href="https://medium.com/@internationalrecsai" target="_blank">Blog</a>
+                            </li>
+                            <li className='flex justify-center'>
+                                <Link href="/events">Events</Link>
                             </li>
                             <li className='flex justify-center'>
                                 <SocialMedia twitter="https://twitter.com/aiglobalexperts/" linkedin="https://www.linkedin.com/company/recsai" instagram="https://www.instagram.com/aiglobalexperts/"/>

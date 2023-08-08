@@ -16,7 +16,7 @@ export default function Home() {
       </div>
       {/* Introduction  */}
       <div className='justify-between px-4 mx-auto lg:max-w-8xl md:flex md:items-center md:px-8 mb-20'>
-        <div className='text-black md:pr-20'>
+        <div className='text-black md:pr-20 md:w-9/12'>
           <div className='text-center'>
             <h1 className='font-light md:text-[2.65vw] md:w-[50vw] text-[4.6vw]'>
               The International Expert Consortium on the
@@ -25,17 +25,22 @@ export default function Home() {
               Regulation, Economics and Computer Science of AI
             </h1>
           </div>
-          <p className='font-light md:w-9/12 mt-10 md:mb-32 mb-10'>
-            The International Expert Consortium on the Regulation, Economics and Computer Science of AI (RECSAI) aims to provide a platform to facilitate such cross-disciplinary enquiries.
+          <p className='font-light mt-10 md:mb-32 mb-10'>
+            The International Expert Consortium on the Regulation, Economics, and Computer Science of AI (RECSAI) 
+            provides a platform to facilitate cross-disciplinary enquiries on key questions and challenges related 
+            to artificial intelligence.  The consortium consists of experts from around the globe who are interested 
+            in engaging in research, education, and thought leadership to shape the evolution of artificial intelligence
+            in our world.  RECSAI believes that bringing leading thinkers together to tackle the issues surrounding 
+            artificial intelligence will drive positive change.
           </p>
-          <div className='flow-root'>
+          {/* <div className='flow-root'>
             <div>
               <Image className="h-auto md:w-2/5 w-5/12 float-left" src={ens} alt=''/>
             </div>
             <div>
               <Image className="h-auto md:w-2/5 w-5/12 float-right" src={wharton} alt=''/>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className='md:m-0 mt-10'>
           <Image className="object-cover" src={dalle} alt=''/>
@@ -68,8 +73,8 @@ export default function Home() {
           <h2 className='font-bold text-4xl'>Our Focus</h2>
           <hr className="w-48 h-px bg-black border-0 rounded mt-2 mb-10"/>
           <p className='font-light'>
-            Since the early 2000s, the modern version of AI (Deep Learning) has excelled at performing narrow, specific tasks 
-            (e.g., recognizing patterns in data). Currently, we are witnessing the birth of a new generation of AI models in 
+            Since the early 2000s, the modern version of AI (deep learning) has excelled at performing narrow, specific tasks 
+            (e.g., recognizing patterns in data). Now, we are witnessing the birth of a new generation of AI models in 
             real time with the emergence of increasingly powerful large generative AI models. These models handle a wide 
             range of problems, power various downstream applications, and can produce human-level text, images, videos, music, 
             or even art. However, current AI regulation in the EU, the US, and elsewhere is not yet fully prepared for the 
