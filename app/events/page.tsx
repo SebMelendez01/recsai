@@ -7,9 +7,9 @@ import dalle_event from "@/public/images/dalle-event.png"
 export default function events() {
 
     return (
-        <div className="flex flex-col min-h-screen px-4 mx-auto lg:max-w-8xl md:px-8">
+        <div className="min-h-screen">
             <Navbar/>
-            <div className="text-black h-full xl:mt-0 sm:mt-10">
+            <div className="text-black h-full xl:mt-0 sm:mt-10 px-4 mx-auto lg:max-w-8xl md:px-8">
                 <div className='w-full flex items-center flex-col lg:flex-row justify-center'>
                     <div className="xl:pr-10 xl:pb-0 pb-10 ">
                         <h2 className='font-bold sm:text-7xl text-5xl '>Stay tuned for updates on RECSAI events...</h2>

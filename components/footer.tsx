@@ -3,8 +3,8 @@ import SocialMedia from "./social-media";
 
 export default function Footer() {
     return (
-        <footer className="bg-white m-4 text-black mt-auto">
-            <div className="w-full p-4 lg:flex lg:items-center lg:justify-between">
+        <footer className="bg-white text-black mt-auto w-full p-4 absolute bottom-0">
+            <div className="lg:flex p-4 lg:items-center lg:justify-between">
                 <span className="lg:text-left text-center">
                     <div className="font-light lg:text-[16px] lg:w-[305px] text-[3.82vw]"> 
                         The International Expert Consortium on the

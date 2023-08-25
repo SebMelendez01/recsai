@@ -10,7 +10,7 @@ import Card from '@/components/card'
 
 export default function Home() {
   return (
-    <main className='w-full'>
+    <main className='w-full relative min-h-screen'>
       <div>
         <Navbar/>
       </div>
@@ -25,7 +25,7 @@ export default function Home() {
               Regulation, Economics and Computer Science of AI
             </h1>
           </div>
-          <p className='font-light mt-10 md:mb-32 mb-10'>
+          <p className='font-light mt-10 md:mb-32 mb-10 text-justify'>
             The International Expert Consortium on the Regulation, Economics, and Computer Science of AI (RECSAI) 
             provides a platform to facilitate cross-disciplinary enquiries on key questions and challenges related 
             to artificial intelligence.  The consortium consists of experts from around the globe who are interested 
@@ -68,11 +68,11 @@ export default function Home() {
         </div>
       </div>
       {/* Our Focus */}
-      <div className='text-black w-full px-4 mx-auto lg:max-w-8xl md:px-8 md:mb-20 mb-10 md:flex md:items-center'>
+      <div className='text-black w-full px-4 mx-auto lg:max-w-8xl md:px-8 md:flex md:items-center'>
         <div className='md:w-8/12'>
           <h2 className='font-bold text-4xl'>Our Focus</h2>
           <hr className="w-48 h-px bg-black border-0 rounded mt-2 mb-10"/>
-          <p className='font-light'>
+          <p className='font-light text-justify	'>
             Since the early 2000s, the modern version of AI (deep learning) has excelled at performing narrow, specific tasks 
             (e.g., recognizing patterns in data). Now, we are witnessing the birth of a new generation of AI models in 
             real time with the emergence of increasingly powerful large generative AI models. These models handle a wide 
@@ -87,9 +87,9 @@ export default function Home() {
           <Image className="md:p-20" src={sd} alt=''/>
         </div>
       </div>
-      <div>
+
         <Footer/>
-      </div>
+
     </main>
   )
 }

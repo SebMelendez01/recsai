@@ -3,7 +3,7 @@ import Navbar from "@/components/navbar";
 
 export default function About() {
     return (
-        <div>
+        <div className="min-h-screen">
             <Navbar/>
             <div className="text-black">
                 <div className='w-full mb-10'>
@@ -11,7 +11,7 @@ export default function About() {
                     <hr className="w-48 h-px mx-auto bg-black border-0 rounded my-2"/>
                 </div>
                 <div className="px-4 mx-auto lg:max-w-8xl text-left md:flex md:px-32">
-                    <p className='font-light'>
+                    <p className='font-light text-justify'>
                         International Expert Consortium on the Regulation, Computer Science and Economics of AI (RECSAI) brings 
                         together thought leaders from around the world to evaluate the broad technical and legal implications 
                         of advances in generative and other AI systems. RECSAI facilitates an interdisciplinary exchange of  

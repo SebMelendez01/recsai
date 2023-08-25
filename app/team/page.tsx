@@ -17,9 +17,9 @@ export default function Team() {
     console.log(profiles.names);
 
     return (
-        <div>
+        <div className="min-h-screen">
             <Navbar/>
-            <div className="px-4 mx-auto lg:max-w-8xl md:px-8 min-h-[63vh]">
+            <div className="px-4 mx-auto lg:max-w-8xl md:px-8">
                 <div className="flex justify-evenly flex-wrap">
                     {profiles.names.map((profile :string) => (
                         <div key={profile} className="w-64 mb-4">
