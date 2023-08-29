@@ -17,10 +17,10 @@ export default function Team() {
     console.log(profiles.names);
 
     return (
-        <div className="min-h-screen">
+        <div className="min-h-screen flex flex-col">
             <Navbar/>
             <div className="px-4 mx-auto lg:max-w-8xl md:px-8">
-                <div className="flex justify-evenly flex-wrap">
+                <div className="flex w-screen justify-evenly flex-wrap">
                     {profiles.names.map((profile :string) => (
                         <div key={profile} className="w-64 mb-4">
                             <User name={profiles[profile].name} title={profiles[profile].title} external={profiles[profile].website} linkedin={profiles[profile].linkedin} twitter={profiles[profile].twitter} />

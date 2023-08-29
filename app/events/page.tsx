@@ -7,7 +7,7 @@ import dalle_event from "@/public/images/dalle-event.png"
 export default function events() {
 
     return (
-        <div className="min-h-screen">
+        <div className="min-h-screen flex flex-col">
             <Navbar/>
             <div className="text-black h-full xl:mt-0 sm:mt-10 px-4 mx-auto lg:max-w-8xl md:px-8">
                 <div className='w-full flex items-center flex-col lg:flex-row justify-center'>

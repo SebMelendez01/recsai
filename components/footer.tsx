@@ -3,7 +3,7 @@ import SocialMedia from "./social-media";
 
 export default function Footer() {
     return (
-        <footer className="bg-white text-black mt-auto w-full p-4 absolute bottom-0">
+        <footer className="bg-white text-black mt-auto w-full p-4">
             <div className="lg:flex p-4 lg:items-center lg:justify-between">
                 <span className="lg:text-left text-center">
                     <div className="font-light lg:text-[16px] lg:w-[305px] text-[3.82vw]"> 
@@ -22,7 +22,7 @@ export default function Footer() {
                         <Link href="/about" className="mr-4 hover:underline md:mr-6">About</Link>
                     </li>
                     <li>
-                        <Link href="/team" className="mr-4 hover:underline md:mr-6">Team</Link>
+                        <Link href="/team" className="mr-4 hover:underline md:mr-6">Experts</Link>
                     </li>
                     <li>
                         <a href="https://medium.com/@internationalrecsai" target="_blank" className="mr-4 hover:underline md:mr-6">Blog</a>

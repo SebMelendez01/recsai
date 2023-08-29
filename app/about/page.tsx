@@ -3,14 +3,14 @@ import Navbar from "@/components/navbar";
 
 export default function About() {
     return (
-        <div className="min-h-screen">
+        <div className="flex flex-col h-full">
             <Navbar/>
-            <div className="text-black">
+            <div className="text-black flex-grow">
                 <div className='w-full mb-10'>
                     <h2 className='flex justify-center font-bold text-4xl'>About Us</h2>
                     <hr className="w-48 h-px mx-auto bg-black border-0 rounded my-2"/>
                 </div>
-                <div className="px-4 mx-auto lg:max-w-8xl text-left md:flex md:px-32">
+                <div className="px-4 mx-auto lg:max-w-8xl md:flex md:px-32">
                     <p className='font-light text-justify'>
                         International Expert Consortium on the Regulation, Computer Science and Economics of AI (RECSAI) brings 
                         together thought leaders from around the world to evaluate the broad technical and legal implications 

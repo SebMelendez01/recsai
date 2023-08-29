@@ -10,10 +10,8 @@ import Card from '@/components/card'
 
 export default function Home() {
   return (
-    <main className='w-full relative min-h-screen'>
-      <div>
+    <main className='flex flex-col h-screen'>
         <Navbar/>
-      </div>
       {/* Introduction  */}
       <div className='justify-between px-4 mx-auto lg:max-w-8xl md:flex md:items-center md:px-8 mb-20'>
         <div className='text-black md:pr-20 md:w-9/12'>
