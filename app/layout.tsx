@@ -9,8 +9,15 @@ const roboto = Roboto({
 
 export const metadata: Metadata = {
   title: "RESCAI",
-  openGraph: {
-    images: "./favicon.ico",
+  robots: {
+    googleBot: {
+      index: true,
+    },
+  },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
   description:
     "The International Expert Consortium on the Regulation, Economics and Computer Science of AI (RECSAI) aims to provide a platform to facilitate such cross-disciplinary enquiries.",
