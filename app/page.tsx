@@ -3,8 +3,6 @@ import Navbar from "@/components/navbar";
 
 import dalle from "../public/images/dalle-eu-parliament.png";
 import sd from "../public/images/stable-diffusion-vvg.jpeg";
-import ens from "../public/logos/ens-logo.webp";
-import wharton from "../public/logos/wharton-logo.svg";
 import Footer from "@/components/footer";
 import Card from "@/components/card";
 
@@ -34,14 +32,6 @@ export default function Home() {
             that bringing leading thinkers together to tackle the issues
             surrounding artificial intelligence will drive positive change.
           </p>
-          {/* <div className='flow-root'>
-            <div>
-              <Image className="h-auto md:w-2/5 w-5/12 float-left" src={ens} alt=''/>
-            </div>
-            <div>
-              <Image className="h-auto md:w-2/5 w-5/12 float-right" src={wharton} alt=''/>
-            </div>
-          </div> */}
         </div>
         <div className="md:m-0 mt-10">
           <Image className="object-cover" src={dalle} alt="" />
