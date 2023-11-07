@@ -15,12 +15,12 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "../public/logos/recsai-small.png",
-    shortcut: "../public/logos/recsai-small.png",
-    apple: "../public/logos/recsai-small.png",
+    icon: "./public/logos/recsai-small.png",
+    shortcut: "./public/logos/recsai-small.png",
+    apple: "./public/logos/recsai-small.png",
     other: {
       rel: "apple-touch-icon-precomposed",
-      url: "../public/logos/recsai-small.png",
+      url: "./public/logos/recsai-small.png",
     },
   },
   description:
