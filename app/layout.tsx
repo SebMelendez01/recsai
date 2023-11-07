@@ -8,10 +8,10 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "TESTING",
+  title: "RECSAI",
   openGraph: {
-    title: "TESTING",
-    images: ["/public/logos/recsai-small.png"],
+    title: "RECSAI",
+    images: ["/logos/recsai-small.png"],
     description:
       "The International Expert Consortium on the Regulation, Economics and Computer Science of AI (RECSAI) aims to provide a platform to facilitate such cross-disciplinary enquiries.",
   },
@@ -21,12 +21,12 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "/public/logos/recsai-small.png",
-    shortcut: "/public/logos/recsai-small.png",
-    apple: "/public/logos/recsai-small.png",
+    icon: "/logos/recsai-small.png",
+    shortcut: "/logos/recsai-small.png",
+    apple: "/logos/recsai-small.png",
     other: {
       rel: "apple-touch-icon-precomposed",
-      url: "/public/logos/recsai-small.png",
+      url: "/logos/recsai-small.png",
     },
   },
   description:
