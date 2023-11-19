@@ -1,0 +1,31 @@
+[
+  {
+    "name": "AI House Davos during the World Economic Forum",
+    "type": "Workshop",
+    "location": "Davos, Switzerland",
+    "start_date": "January 16, 2024",
+    "link": "https://www.aihousedavos.com/"
+  },
+  {
+    "name": "UN Global AI Summit",
+    "type": "Workshop",
+    "location": "TBD",
+    "start_date": "May 28, 2024"
+  },
+  {
+    "name": "Annual RECSAI Conference hosted by the Brookings Institution",
+    "type": "Event",
+    "location": "Washington, DC",
+    "start_date": "September 16, 2024",
+    "end_date": "September 17, 2024",
+    "link": "recsai.org"
+  },
+  {
+    "name": "Annual RECSAI conference at Aula Heilbronn",
+    "type": "Event",
+    "location": "Heilbronn, Germany",
+    "start_date": "June 26, 2025",
+    "end_date": "June 27, 2025",
+    "link": "recsai.org"
+  }
+]

@@ -1,19 +1,149 @@
 {
-    "names" : ["SarahHammer", "PhilippHacker"],
-    "SarahHammer" : {
-        "name" : "Sarah Hammer",
-        "title" : "Co-Chair",
-        "twitter" : "https://twitter.com/FinanceHammer",
-        "linkedin" : "https://www.linkedin.com/in/sarahhammer1/",
-        "description" : "Professor Sarah Hammer is Executive Director at the Wharton School of the University of Pennsylvania and leads Wharton Cypher Accelerator, which supports leading global businesses that are leveraging financial technology. Hammer is also Adjunct Professor at the University of Pennsylvania Law School. Hammer is also Affiliated Scholar at the Penn Program on Regulation.",
-        "website" : "https://www.law.upenn.edu/faculty/sarah21"
-    },
-    "PhilippHacker" : {
-        "name" : "Philipp Hacker",
-        "title" : "Co-Chair",
-        "twitter" : "https://twitter.com/philipphacker15",
-        "linkedin" : "https://www.linkedin.com/in/philipp-hacker-078940257/",
-        "description" : "Prof. Dr. Philipp Hacker, LL.M. (Yale), holds the Chair for Law and Ethics of the Digital Society at the European New School of Digital Studies (ENS), at European University Viadrina Frankfurt (Oder). In 2021, he was a Research Fellow at Weizenbaum Institute for the Connected Society Berlin. Prior to joining ENS, he served as an AXA Postdoctoral Fellow at the Faculty of Law of Humboldt University of Berlin; a Max Weber Fellow at the European University Institute, and an A.SK Fellow at WZB Berlin Social Science Center. His research focuses on the intersection of law and technology. In particular, he analyzes the impact of Artificial Intelligence and the Internet of Things on consumer, privacy, anti-discrimination,and general regulatory law. He often cooperates with computer scientists and mathematicians, especially on questions of explainable AI and algorithmic fairness. He regularly advises national and EU legislators, regulatory agencies, and industry.",
-        "website" : "https://europeannewschool.eu/philipp-hacker.html"
-    }
+  "SarahHammer": {
+    "name": "Sarah Hammer",
+    "recsai_title": "Co-Chair",
+    "affiliation": "University of Pennsylvania",
+    "twitter": "https://twitter.com/FinanceHammer",
+    "linkedin": "https://www.linkedin.com/in/sarahhammer1/",
+    "description": "Professor Sarah Hammer is Executive Director at the Wharton School of the University of Pennsylvania and leads Wharton Cypher Accelerator, which supports leading global businesses that are leveraging financial technology. Hammer is also Adjunct Professor at the University of Pennsylvania Law School. Hammer is also Affiliated Scholar at the Penn Program on Regulation.",
+    "website": "https://www.law.upenn.edu/faculty/sarah21"
+  },
+  "PhilippHacker": {
+    "name": "Philipp Hacker",
+    "recsai_title": "Co-Chair",
+    "affiliation": "European New School of Digital Studies",
+    "twitter": "https://twitter.com/philipphacker15",
+    "linkedin": "https://www.linkedin.com/in/philipp-hacker-078940257/",
+    "description": "Prof. Dr. Philipp Hacker, LL.M. (Yale), holds the Chair for Law and Ethics of the Digital Society at the European New School of Digital Studies (ENS), at European University Viadrina Frankfurt (Oder). In 2021, he was a Research Fellow at Weizenbaum Institute for the Connected Society Berlin. Prior to joining ENS, he served as an AXA Postdoctoral Fellow at the Faculty of Law of Humboldt University of Berlin; a Max Weber Fellow at the European University Institute, and an A.SK Fellow at WZB Berlin Social Science Center. His research focuses on the intersection of law and technology. In particular, he analyzes the impact of Artificial Intelligence and the Internet of Things on consumer, privacy, anti-discrimination,and general regulatory law. He often cooperates with computer scientists and mathematicians, especially on questions of explainable AI and algorithmic fairness. He regularly advises national and EU legislators, regulatory agencies, and industry.",
+    "website": "https://europeannewschool.eu/philipp-hacker.html"
+  },
+  "JeremiasAdams-Prassl": {
+    "name": "Jeremias Adams-Prassl",
+    "affiliation": "University of Oxford",
+    "twitter": "https://twitter.com/jeremiasprassl",
+    "linkedin": "https://www.linkedin.com/in/prassl/",
+    "description": "Professor of Law, Magdalen College, University of Oxford",
+    "website": "https://www.law.ox.ac.uk/people/jeremias-adams-prassl"
+  },
+  "FrederikZuiderveenBorgesius": {
+    "name": "Frederik Zuiderveen Borgesius",
+    "affiliation": "Radboud University",
+    "twitter": "https://twitter.com/fborgesius",
+    "linkedin": "https://www.linkedin.com/in/frederik-zuiderveen-borgesius-8560b49",
+    "description": "Professor of ICT and Law, Radboud University; Interdisciplinary Hub for Security, Privacy and Data Governance, Radboud University",
+    "website": "https://www.ru.nl/en/people/zuiderveen-borgesius-f"
+  },
+  "ChrisCallison-Burch": {
+    "name": "Chris Callison-Burch",
+    "affiliation": "University of Pennsylvania",
+    "linkedin": "https://www.linkedin.com/in/chris-callison-burch-40bb87b7/",
+    "description": "Associate Professor of Computer and Information Science, University of Pennsylvania",
+    "website": "https://www.cis.upenn.edu/~ccb/"
+  },
+  "CaryCoglianese": {
+    "name": "Cary Coglianese",
+    "affiliation": "University of Pennsylvania",
+    "linkedin": "https://www.linkedin.com/in/cary-coglianese-58377628b/",
+    "description": "Edward B. Shils Professor of Law and Professor of Political Science; Director, Penn Program on Regulation, Penn Carey Law School, University of Pennsylvania",
+    "website": "https://www.law.upenn.edu/faculty/ccoglian"
+  },
+  "AlexandreZavagliaCoelho": {
+    "name": "Alexandre Zavaglia Coelho",
+    "affiliation": "Fundação Getúlio Vargas, São Paulo",
+    "linkedin": "https://www.linkedin.com/in/alexandre-zavaglia-coelho-0b7034123/",
+    "description": "Professor of Law, Fundação Getúlio Vargas, São Paulo"
+  },
+  "AndreasEngel": {
+    "name": "Andreas Engel",
+    "affiliation": "University of Heidelberg",
+    "description": "Senior Research Fellow, Faculty of Laws, University of Heidelberg",
+    "website": "https://www.jura.uni-heidelberg.de/heinze/Engel_en.html"
+  },
+  "SueHendrickson": {
+    "name": "Sue Hendrickson",
+    "affiliation": "Harvard Law School",
+    "twitter": "http://twitter.com/SEHendrickson",
+    "description": "Global Technology Governance Fellow, Berkman Klein Center for Internet & Society, Harvard; Lecturer, Harvard Law School",
+    "website": "https://cyber.harvard.edu/people/sue-hendrickson"
+  },
+  "MartialHebert": {
+    "name": "Martial Hebert",
+    "affiliation": "Carnegie Mellon University",
+    "linkedin": "https://www.linkedin.com/in/martial-hebert-76448756/",
+    "description": "Dean and University Professor of Robotics, School of Computer Science, Carnegie Mellon University",
+    "website": "https://engineering.cmu.edu/mfi/directory/bios/hebert-martial.html"
+  },
+  "DoraKaufman": {
+    "name": "Dora Kaufman",
+    "affiliation": "Universidade de São Paulo",
+    "linkedin": "https://www.linkedin.com/in/dorakaufman/",
+    "description": "Professor of Law; Instituto de Estudos Avançados; Intelligence Technologies and Digital Design Program, Universidade de São Paulo and Pontifícia Universidade Católica de São Paulo",
+    "website": "https://aiforgood.itu.int/speaker/dora-kaufman/"
+  },
+  "EvaKocher": {
+    "name": "Eva Kocher",
+    "affiliation": "University Viadrina Frankfurt",
+    "description": "Professor of Law and Director of the Center for Interdisciplinary Labour Law Studies at the Law Faculty of European University Viadrina Frankfurt (Oder), Germany)",
+    "website": "https://www.rewi.europa-uni.de/en/lehrstuhl/br/arbeitsrecht/cillas/index.html"
+  },
+  "SébastienKrier": {
+    "name": "Sébastien Krier",
+    "affiliation": "DeepMind",
+    "linkedin": "https://www.linkedin.com/in/sebkrier/",
+    "description": "Observer, Policy Development & Strategy Manager at DeepMind"
+  },
+  "ChrisMarsden": {
+    "name": "Chris Marsden",
+    "affiliation": "Monash University",
+    "description": "Professor of Artificial Intelligence, Technology and the Law at Monash University; Director of the Digital Law Group at Monash; Associate Director for Global Governance of the Data Futures Institute",
+    "website": "https://research.monash.edu/en/persons/christopher-marsden"
+  },
+  "BrentMittelstadt": {
+    "name": "Brent Mittelstadt",
+    "affiliation": "Oxford Internet Institute",
+    "twitter": "https://twitter.com/b_mittelstadt",
+    "description": "Director of Research, Oxford Internet Institute; Associate Professor and Senior Research Fellow at the Oxford Internet Institute",
+    "website": "https://www.oii.ox.ac.uk/people/profiles/brent-mittelstadt/"
+  },
+  "RemaPadman": {
+    "name": "Rema Padman",
+    "affiliation": "Carnegie Mellon University and iLab",
+    "description": "Trustees Professor of Management Science and Healthcare Informatics, Heinz College of Information Systems and Public Policy, Carnegie Mellon University; Thrust Leader of Healthcare Informatics Research, iLab",
+    "website": "https://www.heinz.cmu.edu/faculty-research/profiles/padman-rema/"
+  },
+  "Jan-HendrikPassoth": {
+    "name": "Jan-Hendrik Passoth",
+    "affiliation": "European New School of Digital Studies",
+    "twitter": "https://twitter.com/janpassoth",
+    "linkedin": "https://www.linkedin.com/in/jhpassoth/",
+    "description": "Professor of Sociology of Technology, Director of the European New School of Digital Studies and Vice-President of Research and Career Development at European University Viadrina Frankfurt (Oder), Germany",
+    "website": "https://www.europeannewschool.eu/jan-passoth.html"
+  },
+  "JeannieMariePaterson": {
+    "name": "Jeannie Marie Paterson",
+    "affiliation": "The University of Melbourne, Australia",
+    "twitter": "https://twitter.com/jeremiasprassl",
+    "linkedin": "https://www.linkedin.com/in/jeannie-marie-paterson-225b4a33/",
+    "description": "Professor of Law, Co-Director of the Centre for AI and Digital Ethics, The University of Melbourne, Australia"
+  },
+  "LyleUngar": {
+    "name": "Lyle Ungar",
+    "affiliation": "University of Pennsylvania",
+    "description": "Professor of Computer and Information Science, University of Pennsylvania",
+    "website": "https://www.cis.upenn.edu/~ungar/"
+  },
+  "MiriamVogel": {
+    "name": "Miriam Vogel",
+    "affiliation": "EqualAI",
+    "linkedin": "https://www.linkedin.com/in/miriamvogelai",
+    "description": "Chair of the National AI Advisory Committee to the US President; President and CEO of EqualAI"
+  },
+  "SandraWachter": {
+    "name": "Sandra Wachter",
+    "affiliation": "University of Oxford",
+    "twitter": "https://twitter.com/jeremiasprassl",
+    "linkedin": "https://www.linkedin.com/in/jeannie-marie-paterson-225b4a33/",
+    "description": "Professor of Technology and Regulation, Oxford Internet Institute, University of Oxford",
+    "website": "https://www.oii.ox.ac.uk/people/profiles/sandra-wachter/"
+  }
 }

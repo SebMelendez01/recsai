@@ -31,6 +31,7 @@ export default function Home() {
             evolution of artificial intelligence in our world. RECSAI believes
             that bringing leading thinkers together to tackle the issues
             surrounding artificial intelligence will drive positive change.
+            RECSAI is generously funded by the Dieter Schwarz Foundation.
           </p>
         </div>
         <div className="md:m-0 mt-10">
