@@ -28,7 +28,6 @@ export default function events() {
     return a_date.getTime() - b_date.getTime();
   });
 
-  console.log(data);
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
