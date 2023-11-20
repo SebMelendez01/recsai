@@ -54,6 +54,7 @@ export function Event({
           <Link
             className="px-4 py-2 w-fit text-xs sm:text-sm font-medium text-center text-black bg-white border border-black hover:text-white hover:bg-black"
             href={link}
+            target="_blank"
           >
             Learn More
           </Link>

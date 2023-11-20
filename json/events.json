@@ -18,7 +18,7 @@
     "location": "Washington, DC",
     "start_date": "September 16, 2024",
     "end_date": "September 17, 2024",
-    "link": "recsai.org"
+    "link": "https://www.recsai.org"
   },
   {
     "name": "Annual RECSAI conference at Aula Heilbronn",
@@ -26,6 +26,6 @@
     "location": "Heilbronn, Germany",
     "start_date": "June 26, 2025",
     "end_date": "June 27, 2025",
-    "link": "recsai.org"
+    "link": "https://www.recsai.org"
   }
 ]
