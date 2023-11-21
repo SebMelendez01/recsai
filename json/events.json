@@ -7,10 +7,11 @@
     "link": "https://www.aihousedavos.com/"
   },
   {
-    "name": "UN Global AI Summit",
+    "name": "RECSAI Workshop at the UN Global AI Summit",
     "type": "Workshop",
-    "location": "TBD",
-    "start_date": "May 28, 2024"
+    "location": "ITU, Geneva, Switzerland",
+    "start_date": "May 28, 2024",
+    "link": "https://aiforgood.itu.int/summit24/"
   },
   {
     "name": "Annual RECSAI Conference hosted by the Brookings Institution",
@@ -21,7 +22,7 @@
     "link": "https://www.recsai.org"
   },
   {
-    "name": "Annual RECSAI conference at Aula Heilbronn",
+    "name": "Annual RECSAI Conference at Aula Heilbronn",
     "type": "Event",
     "location": "Heilbronn, Germany",
     "start_date": "June 26, 2025",

@@ -17,6 +17,13 @@
     "description": "Prof. Dr. Philipp Hacker, LL.M. (Yale), holds the Chair for Law and Ethics of the Digital Society at the European New School of Digital Studies (ENS), at European University Viadrina Frankfurt (Oder). In 2021, he was a Research Fellow at Weizenbaum Institute for the Connected Society Berlin. Prior to joining ENS, he served as an AXA Postdoctoral Fellow at the Faculty of Law of Humboldt University of Berlin; a Max Weber Fellow at the European University Institute, and an A.SK Fellow at WZB Berlin Social Science Center. His research focuses on the intersection of law and technology. In particular, he analyzes the impact of Artificial Intelligence and the Internet of Things on consumer, privacy, anti-discrimination,and general regulatory law. He often cooperates with computer scientists and mathematicians, especially on questions of explainable AI and algorithmic fairness. He regularly advises national and EU legislators, regulatory agencies, and industry.",
     "website": "https://europeannewschool.eu/philipp-hacker.html"
   },
+  "RachelAdams": {
+    "name": "Rachel Adams",
+    "affiliation": "Research ICT Africa",
+    "twitter": "https://twitter.com/racheladamsward",
+    "description": "Programme Director: AI and Principal Investigator of the Global Index on Responsible AI and the AI4D African Observatory on Responsible AI.",
+    "website": "https://researchictafrica.net/author/rachel-adams/"
+  },
   "JeremiasAdams-Prassl": {
     "name": "Jeremias Adams-Prassl",
     "affiliation": "University of Oxford",
@@ -59,19 +66,19 @@
     "description": "Senior Research Fellow, Faculty of Laws, University of Heidelberg",
     "website": "https://www.jura.uni-heidelberg.de/heinze/Engel_en.html"
   },
-  "SueHendrickson": {
-    "name": "Sue Hendrickson",
-    "affiliation": "Harvard Law School",
-    "twitter": "http://twitter.com/SEHendrickson",
-    "description": "Global Technology Governance Fellow, Berkman Klein Center for Internet & Society, Harvard; Lecturer, Harvard Law School",
-    "website": "https://cyber.harvard.edu/people/sue-hendrickson"
-  },
   "MartialHebert": {
     "name": "Martial Hebert",
     "affiliation": "Carnegie Mellon University",
     "linkedin": "https://www.linkedin.com/in/martial-hebert-76448756/",
     "description": "Dean and University Professor of Robotics, School of Computer Science, Carnegie Mellon University",
     "website": "https://engineering.cmu.edu/mfi/directory/bios/hebert-martial.html"
+  },
+  "SueHendrickson": {
+    "name": "Sue Hendrickson",
+    "affiliation": "Harvard Law School",
+    "twitter": "http://twitter.com/SEHendrickson",
+    "description": "Global Technology Governance Fellow, Berkman Klein Center for Internet & Society, Harvard; Lecturer, Harvard Law School",
+    "website": "https://cyber.harvard.edu/people/sue-hendrickson"
   },
   "DoraKaufman": {
     "name": "Dora Kaufman",
@@ -88,9 +95,17 @@
   },
   "SébastienKrier": {
     "name": "Sébastien Krier",
+    "recsai_title": "Observer",
     "affiliation": "DeepMind",
     "linkedin": "https://www.linkedin.com/in/sebkrier/",
-    "description": "Observer, Policy Development & Strategy Manager at DeepMind"
+    "description": "Policy Development & Strategy Manager at DeepMind"
+  },
+  "RamayyaKrishnan": {
+    "name": "Ramayya Krishnan",
+    "affiliation": "Carnegie Mellon University",
+    "linkedin": "https://www.linkedin.com/in/ramayya-krishnan-2b3a6812/",
+    "description": "Dean, Heinz College Of Information Systems And Public Policy And William W. And Ruth F. Cooper Professor Of Management Science And Information Systems, Carnegie Mellon University.",
+    "website": "https://www.heinz.cmu.edu/faculty-research/profiles/krishnan-ramayya"
   },
   "ChrisMarsden": {
     "name": "Chris Marsden",
