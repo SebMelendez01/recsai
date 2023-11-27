@@ -11,28 +11,49 @@ export default function Team() {
 
   if (error) return <div>Failed to load</div>;
   if (!data) return <div>Loading...</div>;
-  const profiles = JSON.parse(data);
-  const names = Object.keys(profiles);
+
+  // recsai_title
+  const chairs = JSON.parse(data).filter(
+    ({ recsai_title }: any) => recsai_title === "Co-Chair"
+  );
+  const experts = JSON.parse(data).filter(
+    ({ recsai_title }: any) => recsai_title !== "Co-Chair"
+  );
 
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
       <div className="px-4 mx-auto lg:max-w-8xl md:px-8">
         <div className="flex w-full justify-evenly flex-wrap">
-          {names.map((profile: string) => (
-            <div key={profile} className="w-64 mb-4">
+          {chairs.map((profile: any) => (
+            <div key={profile.name} className="w-64 mb-4">
               <User
-                name={profiles[profile].name}
-                recsai_title={profiles[profile].recsai_title}
-                affiliation={profiles[profile].affiliation}
-                external={profiles[profile].website}
-                linkedin={profiles[profile].linkedin}
-                twitter={profiles[profile].twitter}
+                name={profile.name}
+                recsai_title={profile.recsai_title}
+                affiliation={profile.affiliation}
+                external={profile.website}
+                linkedin={profile.linkedin}
+                twitter={profile.twitter}
+              />
+            </div>
+          ))}
+        </div>
+        <div className="flex w-full justify-evenly flex-wrap">
+          {experts.map((profile: any) => (
+            <div key={profile.name} className="w-64 mb-4">
+              <User
+                name={profile.name}
+                recsai_title={profile.recsai_title}
+                affiliation={profile.affiliation}
+                external={profile.website}
+                linkedin={profile.linkedin}
+                twitter={profile.twitter}
               />
             </div>
           ))}
         </div>
       </div>
+
       <Footer />
     </div>
   );

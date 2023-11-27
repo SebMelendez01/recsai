@@ -17,7 +17,9 @@ export default function ProfilePage() {
   if (error) return <div>Failed to load</div>;
   //Handle the loading state
   if (!data) return <div>Loading...</div>;
-  const profile = JSON.parse(data)[slug];
+  const profile = JSON.parse(data).find(
+    ({ name }: any) => name.split(" ").join("") === slug
+  );
 
   return (
     <div className="flex flex-col min-h-screen h-screen">

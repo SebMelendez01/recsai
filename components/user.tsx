@@ -30,6 +30,7 @@ export default function User({
           height={125}
           src={`/profiles/${slug}.png`}
           alt=""
+          priority
         />
         <h5 className="mb-1 text-md font-bold text-black ">{name}</h5>
         <span className="text-sm text-black font-bold">
