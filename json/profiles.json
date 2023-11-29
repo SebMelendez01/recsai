@@ -19,7 +19,7 @@
   },
   {
     "name": "Rachel Adams",
-    "affiliation": "Research ICT Africa",
+    "affiliation": "Research ICT Africa/University of Cambridge",
     "twitter": "https://twitter.com/racheladamsward",
     "description": "Programme Director: AI and Principal Investigator of the Global Index on Responsible AI and the AI4D African Observatory on Responsible AI.",
     "website": "https://researchictafrica.net/author/rachel-adams/"
@@ -31,14 +31,6 @@
     "linkedin": "https://www.linkedin.com/in/prassl/",
     "description": "Professor of Law, Magdalen College, University of Oxford",
     "website": "https://www.law.ox.ac.uk/people/jeremias-adams-prassl"
-  },
-  {
-    "name": "Frederik Zuiderveen Borgesius",
-    "affiliation": "Radboud University",
-    "twitter": "https://twitter.com/fborgesius",
-    "linkedin": "https://www.linkedin.com/in/frederik-zuiderveen-borgesius-8560b49",
-    "description": "Professor of ICT and Law, Radboud University; Interdisciplinary Hub for Security, Privacy and Data Governance, Radboud University",
-    "website": "https://www.ru.nl/en/people/zuiderveen-borgesius-f"
   },
   {
     "name": "Chris Callison-Burch",
@@ -53,12 +45,6 @@
     "linkedin": "https://www.linkedin.com/in/cary-coglianese-58377628b/",
     "description": "Edward B. Shils Professor of Law and Professor of Political Science; Director, Penn Program on Regulation, Penn Carey Law School, University of Pennsylvania",
     "website": "https://www.law.upenn.edu/faculty/ccoglian"
-  },
-  {
-    "name": "Alexandre Zavaglia Coelho",
-    "affiliation": "Fundação Getúlio Vargas, São Paulo",
-    "linkedin": "https://www.linkedin.com/in/alexandre-zavaglia-coelho-0b7034123/",
-    "description": "Professor of Law, Fundação Getúlio Vargas, São Paulo"
   },
   {
     "name": "Lilian Edwards",
@@ -81,21 +67,21 @@
   },
   {
     "name": "Sue Hendrickson",
-    "affiliation": "Harvard Law School",
+    "affiliation": "Harvard University",
     "twitter": "http://twitter.com/SEHendrickson",
     "description": "Global Technology Governance Fellow, Berkman Klein Center for Internet & Society, Harvard; Lecturer, Harvard Law School",
     "website": "https://cyber.harvard.edu/people/sue-hendrickson"
   },
   {
     "name": "Dora Kaufman",
-    "affiliation": "Universidade de São Paulo",
+    "affiliation": "Pontifical Catholic University of São Paulo",
     "linkedin": "https://www.linkedin.com/in/dorakaufman/",
     "description": "Professor of Law; Instituto de Estudos Avançados; Intelligence Technologies and Digital Design Program, Universidade de São Paulo and Pontifícia Universidade Católica de São Paulo",
     "website": "https://aiforgood.itu.int/speaker/dora-kaufman/"
   },
   {
     "name": "Eva Kocher",
-    "affiliation": "University Viadrina Frankfurt",
+    "affiliation": "European University Viadrina Frankfurt (Oder)",
     "description": "Professor of Law and Director of the Center for Interdisciplinary Labour Law Studies at the Law Faculty of European University Viadrina Frankfurt (Oder), Germany)",
     "website": "https://www.rewi.europa-uni.de/en/lehrstuhl/br/arbeitsrecht/cillas/index.html"
   },
@@ -108,39 +94,39 @@
   },
   {
     "name": "Ramayya Krishnan",
-    "affiliation": "Carnegie Mellon University",
+    "affiliation": "National Artificial Intelligence Advisory Committee to the US President (NAIAC)/Carnegie Mellon University",
     "linkedin": "https://www.linkedin.com/in/ramayya-krishnan-2b3a6812/",
     "description": "Dean, Heinz College Of Information Systems And Public Policy And William W. And Ruth F. Cooper Professor Of Management Science And Information Systems, Carnegie Mellon University.",
     "website": "https://www.heinz.cmu.edu/faculty-research/profiles/krishnan-ramayya"
   },
   {
     "name": "Chris Marsden",
-    "affiliation": "Monash University",
+    "affiliation": "Monash University/Data Futures Institute",
     "description": "Professor of Artificial Intelligence, Technology and the Law at Monash University; Director of the Digital Law Group at Monash; Associate Director for Global Governance of the Data Futures Institute",
     "website": "https://research.monash.edu/en/persons/christopher-marsden"
   },
   {
     "name": "Brent Mittelstadt",
-    "affiliation": "Oxford Internet Institute",
+    "affiliation": "University of Oxford",
     "twitter": "https://twitter.com/b_mittelstadt",
     "description": "Director of Research, Oxford Internet Institute; Associate Professor and Senior Research Fellow at the Oxford Internet Institute",
     "website": "https://www.oii.ox.ac.uk/people/profiles/brent-mittelstadt/"
   },
   {
     "name": "Fred Oswald",
-    "affiliation": "Rice University",
+    "affiliation": "National Artificial Intelligence Advisory Committee to the US President (NAIAC)/Rice University",
     "description": "Professor, Herbert S. Autrey Chair in Social Sciences Director of Graduate Studies, Rice University; Member, National Artificial Intelligence Advisory Committee",
     "website": "https://profiles.rice.edu/faculty/fred-oswald"
   },
   {
     "name": "Rema Padman",
-    "affiliation": "Carnegie Mellon University and iLab",
+    "affiliation": "Carnegie Mellon University",
     "description": "Trustees Professor of Management Science and Healthcare Informatics, Heinz College of Information Systems and Public Policy, Carnegie Mellon University; Thrust Leader of Healthcare Informatics Research, iLab",
     "website": "https://www.heinz.cmu.edu/faculty-research/profiles/padman-rema/"
   },
   {
     "name": "Jan-Hendrik Passoth",
-    "affiliation": "European New School of Digital Studies",
+    "affiliation": "European New School/European University Viadrina Frankfurt (Oder)",
     "twitter": "https://twitter.com/janpassoth",
     "linkedin": "https://www.linkedin.com/in/jhpassoth/",
     "description": "Professor of Sociology of Technology, Director of the European New School of Digital Studies and Vice-President of Research and Career Development at European University Viadrina Frankfurt (Oder), Germany",
@@ -167,7 +153,7 @@
   },
   {
     "name": "Miriam Vogel",
-    "affiliation": "EqualAI",
+    "affiliation": "National Artificial Intelligence Advisory Committee to the US President (NAIAC)/EqualAI",
     "linkedin": "https://www.linkedin.com/in/miriamvogelai",
     "description": "Chair of the National AI Advisory Committee to the US President; President and CEO of EqualAI"
   },
@@ -178,5 +164,19 @@
     "linkedin": "https://www.linkedin.com/in/jeannie-marie-paterson-225b4a33/",
     "description": "Professor of Technology and Regulation, Oxford Internet Institute, University of Oxford",
     "website": "https://www.oii.ox.ac.uk/people/profiles/sandra-wachter/"
+  },
+  {
+    "name": "Alexandre Zavaglia Coelho",
+    "affiliation": "Fundação Getúlio Vargas, São Paulo",
+    "linkedin": "https://www.linkedin.com/in/alexandre-zavaglia-coelho-0b7034123/",
+    "description": "Professor of Law, Fundação Getúlio Vargas, São Paulo"
+  },
+  {
+    "name": "Frederik Zuiderveen Borgesius",
+    "affiliation": "Radboud University",
+    "twitter": "https://twitter.com/fborgesius",
+    "linkedin": "https://www.linkedin.com/in/frederik-zuiderveen-borgesius-8560b49",
+    "description": "Professor of ICT and Law, Radboud University; Interdisciplinary Hub for Security, Privacy and Data Governance, Radboud University",
+    "website": "https://www.ru.nl/en/people/zuiderveen-borgesius-f"
   }
 ]

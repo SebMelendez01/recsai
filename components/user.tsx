@@ -36,7 +36,9 @@ export default function User({
         <span className="text-sm text-black font-bold">
           {recsai_title ? recsai_title : "Expert"}
         </span>
-        <span className="text-xs text-black font-light">{affiliation}</span>
+        <span className="text-xs text-black text-center min-h-[50px] font-light">
+          {affiliation}
+        </span>
         <div className="flex justify-center text-black my-3">
           <SocialMedia
             twitter={twitter}
