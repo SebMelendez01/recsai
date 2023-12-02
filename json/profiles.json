@@ -59,6 +59,13 @@
     "website": "https://www.jura.uni-heidelberg.de/heinze/Engel_en.html"
   },
   {
+    "name": "Lana Graf",
+    "affiliation": "International Finance Corporation",
+    "recsai_title": "Observer",
+    "description": "Impact Investor, Ai/Deep tech at IFC - International Finance Corporation",
+    "linkedin": "https://www.linkedin.com/in/lanagraf/"
+  },
+  {
     "name": "Martial Hebert",
     "affiliation": "Carnegie Mellon University",
     "linkedin": "https://www.linkedin.com/in/martial-hebert-76448756/",
@@ -144,6 +151,13 @@
     "affiliation": "American Bar Association",
     "description": "President of the American Bar Association",
     "website": "https://www.americanbar.org/groups/leadership/aba_officers/smith-mary/"
+  },
+  {
+    "name": "Reggie Townsend",
+    "recsai_title": "Observer",
+    "affiliation": "SAS/National Artificial Intelligence Advisory Committee to the US President (NAIAC)",
+    "description": "Vice President of Data Ethics at SAS and a Member of the National Artificial Intelligence Advisory Committee to the US President (NAIAC)",
+    "linkedin": "https://www.linkedin.com/in/reginaldtownsend/"
   },
   {
     "name": "Lyle Ungar",
