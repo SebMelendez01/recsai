@@ -42,7 +42,7 @@ export default function events() {
                   start_date={event.start_date}
                   end_date={event.end_date}
                   link={event.link}
-                  pannels={event.pannels}
+                  panels={event.panels}
                 />
               </div>
             ))}
