@@ -1,6 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 
+interface PannelProps {
+  name: string;
+  link: string;
+}
+
 export interface EventProps {
   name: string;
   type: "Workshop" | "Event";
@@ -8,6 +13,7 @@ export interface EventProps {
   start_date: string;
   end_date?: string;
   link?: string;
+  pannels?: PannelProps[];
 }
 
 export function Event({
@@ -17,9 +23,11 @@ export function Event({
   start_date,
   end_date,
   link,
+  pannels,
 }: EventProps) {
   const slug = start_date.replace(",", "").split(" ").join("-");
-
+  console.log(slug);
+  console.log(pannels);
   return (
     // Set a max-height for the event card and ensure content is aligned properly
     <div className="mb-5 w-full sm:h-60 bg-white border border-black shadow flex flex-col sm:flex-row overflow-hidden">
@@ -49,16 +57,31 @@ export function Event({
             )}
           </span>
         </div>
-
-        {link && (
-          <Link
-            className="px-4 py-2 w-fit text-xs sm:text-sm font-medium text-center text-black bg-white border border-black hover:text-white hover:bg-black"
-            href={link}
-            target="_blank"
-          >
-            Learn More
-          </Link>
-        )}
+        <div className="flex flex-row flex-wrap">
+          {link && (
+            <Link
+              className="px-4 py-2 mt-4 mr-4 w-fit text-xs sm:text-sm font-medium text-center text-black bg-white border border-black hover:text-white hover:bg-black"
+              href={link}
+              target="_blank"
+            >
+              Learn More
+            </Link>
+          )}
+          {pannels && (
+            <div className="flex flex-row flex-wrap">
+              {pannels.map((p) => (
+                <Link
+                  key={p.name}
+                  className="px-4 py-2 mr-4 mt-4 w-fit text-xs sm:text-sm font-medium text-center text-black bg-white border border-black hover:text-white hover:bg-black"
+                  href={p.link}
+                  target="_blank"
+                >
+                  {p.name}
+                </Link>
+              ))}
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );

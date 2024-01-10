@@ -27,7 +27,6 @@ export default function events() {
     const b_date = new Date(b.start_date);
     return a_date.getTime() - b_date.getTime();
   });
-
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
@@ -43,6 +42,7 @@ export default function events() {
                   start_date={event.start_date}
                   end_date={event.end_date}
                   link={event.link}
+                  pannels={event.pannels}
                 />
               </div>
             ))}

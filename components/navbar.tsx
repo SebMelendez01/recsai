@@ -74,15 +74,18 @@ export default function Navbar() {
                 <Link href="/team">Experts</Link>
               </li>
               <li className="flex justify-center">
+                <Link href="/events">Events</Link>
+              </li>
+              {/* <li className="flex justify-center">
+                <Link href="/press">Press Coverage</Link>
+              </li> */}
+              <li className="flex justify-center">
                 <a
                   href="https://medium.com/@internationalrecsai"
                   target="_blank"
                 >
                   Blog
                 </a>
-              </li>
-              <li className="flex justify-center">
-                <Link href="/events">Events</Link>
               </li>
               <li className="flex justify-center">
                 <SocialMedia

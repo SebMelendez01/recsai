@@ -4,7 +4,17 @@
     "type": "Workshop",
     "location": "Davos, Switzerland",
     "start_date": "January 16, 2024",
-    "link": "https://www.aihousedavos.com/"
+    "link": "https://www.aihousedavos.com/",
+    "pannels": [
+      {
+        "name": "Pannel 1",
+        "link": "https://zoon.swisscom.com/en/event/ai-house-davos/agenda/4d3d3a66-c1ab-4700-9c36-bea9bd56eaaa"
+      },
+      {
+        "name": "Pannel 2",
+        "link": "https://zoon.swisscom.com/en/event/ai-house-davos/agenda/db42563c-5a03-49b4-af89-6f49a40c5c6f"
+      }
+    ]
   },
   {
     "name": "RECSAI Workshop at the UN Global AI Summit",
