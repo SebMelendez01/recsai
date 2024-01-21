@@ -4,8 +4,8 @@
     "type": "Workshop",
     "location": "Davos, Switzerland",
     "start_date": "January 16, 2024",
-    "link": "https://www.aihousedavos.com/",
-    "panels": [
+    "main_link": "https://www.aihousedavos.com/",
+    "links": [
       {
         "name": "Panel 1",
         "link": "https://zoon.swisscom.com/en/event/ai-house-davos/agenda/4d3d3a66-c1ab-4700-9c36-bea9bd56eaaa"
@@ -21,7 +21,7 @@
     "type": "Workshop",
     "location": "ITU, Geneva, Switzerland",
     "start_date": "May 28, 2024",
-    "link": "https://aiforgood.itu.int/summit24/"
+    "main_link": "https://aiforgood.itu.int/summit24/"
   },
   {
     "name": "Annual RECSAI Conference hosted by the Brookings Institution",
@@ -29,7 +29,7 @@
     "location": "Washington, DC",
     "start_date": "September 16, 2024",
     "end_date": "September 17, 2024",
-    "link": "https://www.recsai.org"
+    "main_link": "https://www.recsai.org"
   },
   {
     "name": "Annual RECSAI Conference at Aula Heilbronn",
@@ -37,6 +37,18 @@
     "location": "Heilbronn, Germany",
     "start_date": "June 26, 2025",
     "end_date": "June 27, 2025",
-    "link": "https://www.recsai.org"
+    "main_link": "https://www.recsai.org"
+  },
+  {
+    "name": "Inaugural Lecture and Launch of RECSAI",
+    "type": "Lecture",
+    "location": "European University Viadrina Frankfurt (Oder)",
+    "start_date": "December 5, 2023",
+    "links": [
+      {
+        "name": "Watch",
+        "link": "https://www.youtube.com/watch?v=li2o9Y6NBGQ"
+      }
+    ]
   }
 ]

@@ -1,19 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
 
-interface PannelProps {
+interface ButtonProps {
   name: string;
   link: string;
 }
 
 export interface EventProps {
   name: string;
-  type: "Workshop" | "Event";
+  type: "Workshop" | "Event" | "Lecture";
   location: string;
   start_date: string;
   end_date?: string;
-  link?: string;
-  panels?: PannelProps[];
+  main_link?: string;
+  links?: ButtonProps[];
 }
 
 export function Event({
@@ -22,8 +22,8 @@ export function Event({
   location,
   start_date,
   end_date,
-  link,
-  panels,
+  main_link,
+  links,
 }: EventProps) {
   const slug = start_date.replace(",", "").split(" ").join("-");
 
@@ -57,18 +57,18 @@ export function Event({
           </span>
         </div>
         <div className="flex flex-row flex-wrap">
-          {link && (
+          {main_link && (
             <Link
               className="px-4 py-2 mt-4 mr-4 w-fit text-xs sm:text-sm font-medium text-center text-black bg-white border border-black hover:text-white hover:bg-black"
-              href={link}
+              href={main_link}
               target="_blank"
             >
               Learn More
             </Link>
           )}
-          {panels && (
+          {links && (
             <div className="flex flex-row flex-wrap">
-              {panels.map((p) => (
+              {links.map((p) => (
                 <Link
                   key={p.name}
                   className="px-4 py-2 mr-4 mt-4 w-fit text-xs sm:text-sm font-medium text-center text-black bg-white border border-black hover:text-white hover:bg-black"
