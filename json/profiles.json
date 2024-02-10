@@ -47,6 +47,14 @@
     "website": "https://www.cis.upenn.edu/~ccb/"
   },
   {
+    "name": "Dietrich Chen",
+    "affiliation": "EY-Parthenon",
+    "recsai_title": "Observer",
+    "linkedin": "https://www.linkedin.com/in/dietrichchen/",
+    "description": "Dietrich Chen is a Managing Director at EY-Parthenon’s Commercial Strategy group and leads their GenAI task force. He has a PhD in Operations Research from Cornell University.",
+    "website": "https://whartonfutureoffinance.com/dietrich-chen/"
+  },
+  {
     "name": "Cary Coglianese",
     "affiliation": "University of Pennsylvania",
     "linkedin": "https://www.linkedin.com/in/cary-coglianese-58377628b/",
@@ -71,6 +79,12 @@
     "linkedin": "https://www.linkedin.com/in/chris-geczy-ph-d-a69114/",
     "description": "Adjunct Professor of Finance at The Wharton Schoool, University of Pennsylvania. Academic Director of Wharton Wealth Management Initiative and Jacobs Levy Equity Management Center",
     "website": "https://www.christophergeczy.com/"
+  },
+  {
+    "name": "Frauke Goll",
+    "affiliation": "appliedAI Institute for Europe gGmbH",
+    "description": "Dr. Frauke Goll, is Managing Director of the appliedAI Institute for Europe gGmbH, which aims on building up an open-access accelerator on Trustworthy AI by empowering professionals to develop and apply latest AI technologies. With that she also regularly advises regional, national and EU legislators and industry. Frauke gained her PhD from the Graduate School of Excellence advanced Manufacturing Engineering at the University Stuttgart, Germany. Her research interests include Management of Complex Systems, Innovation Management, Creative Ecosystems and Learning Environments, Technology Assessment and Sustainability. She has always been interested in the interfaces between different disciplines and likes to examine topics from a holistic perspective. Frauke also pursued this approach in her professional career and gained several years of experience in various positions in the industry. As part of the e-mobil BW and there the Cluster Electric Mobility South-West, she was responsible for the innovation fields of energy and information and communication technologies and initiated a working group on automated driving and intelligent move. As Head of Innovation, Strategy and Transfer at the Research Center for Information Technology in Karlsruhe, she dealt with issues relating to artificial intelligence and cybersecurity.",
+    "linkedin": "https://www.linkedin.com/in/frauke-goll/"
   },
   {
     "name": "Lana Graf",
@@ -99,6 +113,12 @@
     "linkedin": "https://www.linkedin.com/in/dorakaufman/",
     "description": "Professor of Law; Instituto de Estudos Avançados; Intelligence Technologies and Digital Design Program, Universidade de São Paulo and Pontifícia Universidade Católica de São Paulo",
     "website": "https://aiforgood.itu.int/speaker/dora-kaufman/"
+  },
+  {
+    "name": "Till Klein",
+    "affiliation": "appliedAI Institute for Europe gGmbH",
+    "description": "Dr. Till Klein is the Head of Trustworthy AI at appliedAI, a leading AI initiative in Europe and member of the OECD.AI Expert group. Following the goal to accelerate Trustworthy AI at scale, he is driving the co-creation of training, methods and tools for operationalizing emerging AI regulations, standards, and principles, from Euarope and beyond.\nTill gained several years of industry experience in Regulatory Affairs for Medical Devices, as Lead Auditor for Quality Management Systems, and as Head for Quality Management in a Drone Company, which equips him with practical skills and perspectives that are instrumental for applying Trustworthy AI.\nHe holds a Ph.D. in Business from the Centre for Transformative Innovation at the Swinburne University of Technology in Melbourne, Australia and an undergraduate degree in Industrial Engineering. Besides AI, his research interests include Economic Geography, Social Networks, and Innovation Management.",
+    "linkedin": "https://www.linkedin.com/in/tillklein/"
   },
   {
     "name": "Eva Kocher",
@@ -139,6 +159,12 @@
     "recsai_title": "Observer",
     "linkedin": "https://www.linkedin.com/in/christina-montgomery-8776b1a/",
     "description": "Chief Privacy & Trust Officer, IBM"
+  },
+  {
+    "name": "Bj%C3%B6rn Ommer",
+    "affiliation": "Ludwig Maximilian University of Munich",
+    "description": "Head of Computer Vision & Learning Group, Ludwig Maximilian University of Munich",
+    "website": "https://ommer-lab.com/people/ommer/"
   },
   {
     "name": "Fred Oswald",

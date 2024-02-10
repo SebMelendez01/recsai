@@ -32,7 +32,9 @@ export default function User({
           alt=""
           priority
         />
-        <h5 className="mb-1 text-md font-bold text-black ">{name}</h5>
+        <h5 className="mb-1 text-md font-bold text-black ">
+          {decodeURIComponent(name)}
+        </h5>
         <span className="text-sm text-black font-bold">
           {recsai_title ? recsai_title : "Expert"}
         </span>

@@ -17,6 +17,7 @@ export default function ProfilePage() {
   if (error) return <div>Failed to load</div>;
   //Handle the loading state
   if (!data) return <div>Loading...</div>;
+  console.log(slug);
   const profile = JSON.parse(data).find(
     ({ name }: any) => name.split(" ").join("") === slug
   );
@@ -26,7 +27,9 @@ export default function ProfilePage() {
       <Navbar />
       <div className="flex-grow text-black w-full px-4 mx-auto lg:max-w-8xl md:px-8 mb-2 md:flex md:items-center">
         <div className="md:w-8/12">
-          <h2 className="font-bold text-4xl">{profile.name}</h2>
+          <h2 className="font-bold text-4xl">
+            {decodeURIComponent(profile.name)}
+          </h2>
           <hr className="w-48 h-px bg-black border-0 rounded mt-2 mb-2" />
           <p className="font-light text-justify">{profile.description}</p>
           <div className="mt-4 flex justify-center">
