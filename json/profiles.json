@@ -207,6 +207,14 @@
     "website": "https://www.americanbar.org/groups/leadership/aba_officers/smith-mary/"
   },
   {
+    "name": "Danny Tobey",
+    "recsai_title": "Observer",
+    "affiliation": "DLA Piper Americas AI and Data Analytics Practice",
+    "description": "Danny is a medical doctor, successful software founder, and chair of DLA Piper's AI & Data Analytics practice. Danny was named Financial Times' Innovative Practitioner in 2023 and led Insider's 2022 list of the top attorneys helping companies adopt AI. A noted thought leader and expert on the safe and effective deployment of AI systems, Danny sat on Pfizer’s Digital Health Scientific Advisory Board and the UN's Executive Committee of the AI for Good Law Track. He sits on the World Economic Forum's AI Governance Alliance, and he is a founding member of the Health AI Partnership with the Mayo Clinic, Duke, and others, which now includes the American Medical Association and HHS's Office of the National Coordinator for Health Information Technology as a federal observer. Danny's AI clients include leading generative AI innovators, Fortune 500 and 100 companies, and breakthrough startups like IDx, the first FDA-approved fully autonomous AI, with whom he co-authored the peer-reviewed Lessons Learned About Autonomous AI: Finding a Safe, Efficacious, and Ethical Path Through the Development Process. Danny was an invited speaker at the AAAI's inaugural AI, Ethics, and Society conference sponsored by Google, IBM, and others, Stanford Law School's CODEX FutureLaw Conference, and the Swiss Embassy on AI innovation in the U.S. Danny advised the American Medical Association on its AI policy and has been recognized by the U.S. Library of Congress for his work on liability and AI. Danny's writing on technology and law has been published by the Yale Journal of Law & Technology, the National Law Journal, the Proceedings of the Association for the Advancement of Artificial Intelligence, the American Health Law Association, and the Association of Corporate Counsel, among others. Danny has hosted the Principal Deputy Commissioner of the FDA in a fireside chat on AI and moderated the closed-door Ministerial Roundtable in Morocco on Improving Health Outcomes in Africa through Innovative Solutions and the fireside chat in Washington D.C. with His Excellency the President of Malawi and Pfizer, Improving Health Security in Africa through Strategic Partnerships, during the 2022 U.S.-Africa Leaders Summit. Danny led a successful software company from inception to acquisition. His original medical research appears in Pediatric Blood & Cancer and the Journal of Child and Adolescent Psychopharmacology.",
+    "linkedin": "https://www.linkedin.com/in/dannytobey/",
+    "website": "https://www.dlapiper.com/en-us/people/t/tobey-danny"
+  },
+  {
     "name": "Reggie Townsend",
     "recsai_title": "Observer",
     "affiliation": "SAS",
@@ -238,6 +246,13 @@
     "affiliation": "Fundação Getúlio Vargas, São Paulo",
     "linkedin": "https://www.linkedin.com/in/alexandre-zavaglia-coelho-0b7034123/",
     "description": "Professor of Law, Fundação Getúlio Vargas, São Paulo"
+  },
+  {
+    "name": "Angela Huyue Zhang",
+    "affiliation": "University of Southern California",
+    "twitter": "https://x.com/AngelaZhangHK",
+    "website": "https://www.angelazhang.net/",
+    "description": "Widely recognized as a leading authority on Chinese tech regulation, Angela Huyue Zhang has written extensively on this topic. She is the author of Chinese Antitrust Exceptionalism: How the Rise of China Challenges Global Regulation published by the Oxford University Press in 2021. The book was named one of the Best Political Economy Books of the Year by ProMarket in 2021. Angela's second book \"High Wire: How China Regulates Big Tech and Governs Its Economy\" was released by the Oxford University Press in March 2024. Angela is currently doing research on the regulation of artificial intelligence, with plans to teach and write on this topic in the coming years."
   },
   {
     "name": "Frederik Zuiderveen Borgesius",
