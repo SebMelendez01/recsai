@@ -31,7 +31,12 @@ export default function ProfilePage() {
             {decodeURIComponent(profile.name)}
           </h2>
           <hr className="w-48 h-px bg-black border-0 rounded mt-2 mb-2" />
-          <p className="font-light text-justify">{profile.description}</p>
+          <p
+            className="font-light text-justify"
+            style={{ whiteSpace: "pre-line" }}
+          >
+            {profile.description}
+          </p>
           <div className="mt-4 flex justify-center">
             <SocialMedia
               twitter={profile.twitter}
